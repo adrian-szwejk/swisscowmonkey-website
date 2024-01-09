@@ -3,3 +3,25 @@
     height: auto;
     max-width: 90%; /* Adjust the max-width as needed */
 }
+
+h2 {
+    font-size: calc(1.25rem + 1vw); /* Default Font Size */
+ }
+
+ @media (min-width: 576px) {
+    h2 {
+       font-size: calc(1.25rem + 0.5vw); /* Sliding scale with viewport width */
+    }
+ }
+
+ @media (min-width: 768px) {
+    h2 {
+       font-size: calc(1.25rem + 1vw); /* Adjust Font Size for Small Screens and above */
+    }
+ }
+
+
+ /* Maximum Width for Adrian's Section */
+ #founder2 {
+    max-width: 100%;
+ }
