@@ -1,84 +1,99 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <!-- <meta http-equiv="refresh" content="0;url=http://www.SwissCowMonkey.com" /> -->
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <title>About Us - SwissCowMonkey</title>
+      
+      <script>
+         if (!window.location.href.includes("www.")) {
+            setTimeout(function () {
+               window.location.href = "http://www.SwissCowMonkey.com";
+            });
+         }
+      </script>
       <!-- Bootstrap CSS -->
       <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
       <link href="index.css" rel="stylesheet">
   </head>
   <body>
+
+   <section id="what-is-scm" class="mb-4">
+      <header class="text-center">
+          <h1>What is SwissCowMonkey?</h1>
+      </header>
+      <p class="text-center">
+          SwissCowMonkey is a partnership created by two friends with a passion for computer science. We started playing brawl stars after global release and wanted to create an application surrounding the game. <br>
+          Our mission is to provide valuable insights, tools, and resources for players, whether you're a casual gamer or a competitive enthusiast.
+      </p>
+  </section>
   
    <div class="container mt-3">
-      
-      <!-- New Section: Upcoming Mobile App -->
-      <section id="upcoming-app" class="mb-1">
-         <header class="text-center">
-            <h1>Exciting News!</h1>
-         </header>
-         <p class="text-center">
-            We are thrilled to announce the upcoming release of our new mobile application Brawlytics! <br>
-            Brawlytics is designed to aid your brawler decision making process. We aim to do this using machine learning models coupled with a user-friendly design.
-         </p>
-         <p class="text-center">
-            Whether you're a casual or competetive brawl stars player, Brawlytics will cater to your needs. From player statistics to power league brawler recommendations, we've got it all covered.
-         </p>
-      </section>
 
+      <!-- New Section: Upcoming Mobile App -->
+      <section id="upcoming-app" class="mb-4">
+          <header class="text-center">
+              <h1>Exciting News!</h1>
+          </header>
+          <p class="text-center">
+              We are thrilled to announce the upcoming release of our new mobile application Brawlytics! <br>
+              Brawlytics is designed to aid your brawler decision-making process. We aim to do this using machine learning models coupled with a user-friendly design. <br>
+              Whether you're a casual or competitive Brawl Stars player, Brawlytics will cater to your needs. From player statistics to Power League brawler recommendations, we've got it all covered.
+          </p>
+      </section>
+  
       <header class="text-center">
-         <h1>Preview</h1>
+          <h1>Preview</h1>
       </header>
-      <div class="row">
-         <div class="col-md-4">
-            <img src="tempPreviewImage.png" alt="Preview 1" class="img-fluid founder-img mb-3">
-         </div>
-         <div class="col-md-4">
-            <img src="tempPreviewImage.png" alt="Preview 2" class="img-fluid founder-img mb-3">
-         </div>
-         <div class="col-md-4">
-            <img src="tempPreviewImage.png" alt="Preview 3" class="img-fluid founder-img mb-3">
-         </div>
+      <div class="row mb-4">
+          <div class="col-md-4 text-center">
+              <img src="zhman100.png" alt="Preview 1" class="img-fluid founder-img mb-3">
+          </div>
+          <div class="col-md-4 text-center">
+              <img src="Picture2.png" alt="Preview 2" class="img-fluid founder-img mb-3">
+          </div>
+          <div class="col-md-4 text-center">
+              <img src="Picture3.png" alt="Preview 3" class="img-fluid founder-img mb-3">
+          </div>
       </div>
-      
+  
       <header class="text-center">
-         <h1>About Us</h1>
+          <h1>About Us</h1>
       </header>
   
       <div class="row mt-4">
-         <div class="col-md-6">
-            <section id="founder1">
-               <h2>Co-Founder: Zach Hanson</h2>
-               <img src="Zach_Hanson.JPG" alt="Zach Hanson" class="img-fluid founder-img mb-3">
-               <p>
-                  Hello! I'm Zach Hanson, one of the co-founders of SwissCowMonkey.
-               </p>
-               <p>
-                  I am currently a senior at Purdue University majoring in Data Science.
-                  I led the creation of the backend for our mobile application Brawlytics. I designed and implemented the database, and created the model for the machine learning recommendation system.
-               </p>
-            </section>
-         </div>
+          <div class="col-md-6">
+              <section id="founder1">
+                  <h2>Co-Founder: Zach Hanson</h2>
+                  <img src="Zach_Hanson.jpg" alt="Zach Hanson" class="img-fluid founder-img mb-3">
+                  <p>
+                      Hello! I'm Zach Hanson, one of the co-founders of SwissCowMonkey.
+                  </p>
+                  <p>
+                      I am currently a senior at Purdue University majoring in Data Science.
+                      I led the creation of the backend for our mobile application Brawlytics. I designed and implemented the database that holds user information and brawler data. Additionally, I created the model for the machine learning recommendation system.
+                  </p>
+              </section>
+          </div>
   
-         <div class="col-md-6">
-            <section id="founder2">
-               <h2>Co-Founder: Adrian Szwejkowski</h2>
-               <img src="Adrian_Szwejkowski.png" alt="Adrian Szwejkowski" class="img-fluid founder-img mb-3">
-               <p>
-                  Hello! I'm Adrian Szwejkowski, one of the co-founders of SwissCowMonkey.
-               </p>
-               <p>
-                  I am currently a junior at the University of Illinois at Urbana-Champaign majoring in Computer Science.
-                  I worked on the front-end of our mobile application Brawlytics. I designed, implemented, and tested the UI. We used Flutter as the framework for our application.
-               </p>
-            </section>
-         </div>
+          <div class="col-md-6">
+              <section id="founder2">
+                  <h2>Co-Founder: Adrian Szwejkowski</h2>
+                  <img src="Adrian_Szwejkowski.png" alt="Adrian Szwejkowski" class="img-fluid founder-img mb-3">
+                  <p>
+                      Hello! I'm Adrian Szwejkowski, one of the co-founders of SwissCowMonkey.
+                  </p>
+                  <p>
+                      I am currently a junior at the University of Illinois at Urbana-Champaign majoring in Computer Science.
+                      I worked on the front-end of our mobile application Brawlytics. I designed, implemented, and tested the UI using Flutter and Dart. Additionally, I managed the authentication system using firebase and built in flutter packages.
+                  </p>
+              </section>
+          </div>
       </div>
   
       <footer class="text-center mt-5">
-         <p>Thank you for being part of the SwissCowMonkey community!</p>
-         <p>If you have any questions please reach out to SwissCowMonkey@gmail.com</p>
+          <p>Thank you for being part of the SwissCowMonkey community!</p>
+          <p>If you have any questions, please reach out to SwissCowMonkey@gmail.com</p>
       </footer>
   </div>
   
