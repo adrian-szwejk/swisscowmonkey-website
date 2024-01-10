@@ -19,6 +19,7 @@ section {
    margin-bottom: 20px;
 }
 
+
 header h1, section header h2 {
    color: #007bff;
 }
@@ -63,3 +64,8 @@ h2 {
  #founder2 {
     max-width: 100%;
  }
+
+.dark-background {
+   background-color: #343a40;
+   color: white; /* Optional: Set text color to white for better readability */
+}
